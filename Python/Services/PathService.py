@@ -62,7 +62,7 @@ class PathService(metaclass=Singleton):
 
         self._path_to_main_directory = os.getcwd()
         self.path_to_configs = os.path.join(self._path_to_main_directory, 'Services', 'Configs')
-        self.path_to_databases = os.path.abspath(os.path.join('..', 'Databases'))
+        self.path_to_databases = os.path.abspath(os.path.join('C:\\1Vadim\\IT\\Repositories\\Tonal\\', 'Databases'))
 
         os.chdir(self._wd)
 
